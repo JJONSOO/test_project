@@ -38,11 +38,15 @@ public:
 	}
 	void intro() {
 		cout << id << " 학번 " << name << " 입니다.\n";
+		cout << "Hello" << endl;
 	}
 	void study() {
 		cout << "캐스팅 ,접근제어, 다중상속, 다형성, 가상함수 , 순수가상함수 \n";
 	}
 };
+void Hello() {
+	cout << "Hello" << endl;
+}
 void main() {
 	Human h("트레버펄립스", 10);
 	Student s("송하나", 21, 20191234);
